@@ -1,6 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/0e979bd4a3c1c6ac788ed57ac569667f?family=revicons);
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body {
 	font-family: 'Noto Sans TC', sans-serif;
 }
@@ -24,13 +25,13 @@ nav#menu.desktopTopFixed {
 	padding: 0;
 }
 
-.mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img {
+.mega-menu.desktopTopFixed .menu-list-items .menu-logo>li>a img {
 	height: 70px;
 	margin: 0;
 }
 
-#onepagenav.onepage-hover-01 .mega-menu .menu-links > li > a:hover,
-#onepagenav.onepage-hover-01 .mega-menu .menu-links > li.active > a {
+#onepagenav.onepage-hover-01 .mega-menu .menu-links>li>a:hover,
+#onepagenav.onepage-hover-01 .mega-menu .menu-links>li.active>a {
 	color: #FFF;
 }
 
@@ -48,7 +49,7 @@ nav#menu.desktopTopFixed {
 	color: #FFF;
 }
 
-.header.text-dark .mega-menu .menu-links > li {
+.header.text-dark .mega-menu .menu-links>li {
 	padding: 0 5px;
 }
 
@@ -61,7 +62,7 @@ nav#menu.desktopTopFixed {
 	font-weight: 800;
 }
 
-.mega-menu .menu-links > li > a {
+.mega-menu .menu-links>li>a {
 	font-size: 16px;
 }
 
@@ -80,6 +81,10 @@ nav#menu.desktopTopFixed {
 	.service-3-img {
 		height: 350px;
 	}
+
+	.service-4-img {
+		height: 300px;
+	}
 }
 
 @media (max-width: 991px) {
@@ -91,7 +96,7 @@ nav#menu.desktopTopFixed {
 		max-height: inherit !important;
 	}
 
-	.mega-menu > section.menu-list-items {
+	.mega-menu>section.menu-list-items {
 		height: 70px !important;
 	}
 
